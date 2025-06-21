@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #66c8cf;
+}
+
+.container {
+    background-color: #92d2eb;
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container .inputsBox {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.container .inputsBox input {
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 5px;
+    background: none;
+    border-bottom: 1px solid #17a5af;
+    width: 180px;
+    outline: none;
+}
+
+.container .inputsBox label {
+    font-size: 19px;
+}
+
+.container button {
+    width: 100%;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #1dbac5;
+    font-size: 18px;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+.container .result {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
